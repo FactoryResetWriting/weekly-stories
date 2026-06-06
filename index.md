@@ -1,6 +1,6 @@
 ---
 layout: home
-title: A. R. Smith - Weekly Short Stories
+title: Weekly Short Stories
 ---
 
 A new story every week.
