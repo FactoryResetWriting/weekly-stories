@@ -5,3 +5,6 @@ theme: minima
 author: Anthony R. Smith
 
 show_excerpts: true
+
+plugins:
+  - jekyll-feed
