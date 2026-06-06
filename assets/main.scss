@@ -1,0 +1,35 @@
+---
+---
+
+@import "minima";
+
+.story-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0.75rem 0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 0.95rem;
+}
+
+.story-nav div:nth-child(1) {
+  text-align: left;
+}
+
+.story-nav div:nth-child(2) {
+  text-align: center;
+}
+
+.story-nav div:nth-child(3) {
+  text-align: right;
+}
+
+.story-nav a {
+  text-decoration: none;
+}
+
+.story-nav a:hover {
+  text-decoration: underline;
+}
