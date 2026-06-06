@@ -23,6 +23,10 @@ layout: default
       {% endif %}
     </div>
 
+  <p class="rss-subscribe">
+      <a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
+  </p>
+    
     <div>
       <a href="{{ "/" | relative_url }}">Home</a>
     </div>
@@ -61,6 +65,10 @@ layout: default
       {% endif %}
     </div>
   </nav>
-
+  
+  <p class="rss-subscribe">
+      <a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
+  </p>
+  
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
